@@ -1,0 +1,29 @@
+{
+  "name": "wa-vjezbe",
+  "version": "1.0.0",
+  "description": "Primjer Express.js aplikacije — minimalan, proširiv REST API server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkatic1986/WA-vjezbe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danielkatic1986/WA-vjezbe/issues"
+  },
+  "homepage": "https://github.com/danielkatic1986/WA-vjezbe#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
