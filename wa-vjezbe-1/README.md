@@ -1,31 +1,21 @@
-# Web aplikacije — Vježba 1
+# Vježba 1 — Uvod u HTTP, Node i Express
 
-Repozitorij sadrži rješenja vježbi iz kolegija **Web aplikacije**. Ovaj direktorij
-(`wa-vjezbe-1`) sadrži materijale i kod za **prvu vježbu**.
+Rješenje prve vježbe kolegija **Web aplikacije**.
 
-## O kolegiju
+> Općenite informacije o kolegiju i pregled svih vježbi nalaze se u
+> [korijenskom README-u](../README.md).
 
-| | |
-| --- | --- |
-| **Kolegij** | Web aplikacije (WA – 199769) |
-| **Ustanova** | Sveučilište Jurja Dobrile u Puli, Fakultet informatike u Puli |
-| **Nositelj** | doc. dr. sc. Nikola Tanković |
-| **Asistent** | Luka Blašković, mag. inf. |
+## Cilj vježbe
 
-Kolegij se bavi razvojem **poslužiteljskog sloja** web aplikacija korištenjem
-**Node.js-a** i web okvira **Express.js**.
-
-## Tema prve vježbe
-
-**Uvod u HTTP, Node i Express** — upoznavanje s alatima (Node.js, VS Code, Git),
-inicijalizacija Node projekta, postavljanje osnovnog Express poslužitelja te osnove
-HTTP protokola (zahtjev, odgovor, statusni kodovi).
+Upoznavanje s alatima (Node.js, VS Code, Git) i inicijalizacija Node projekta,
+postavljanje osnovnog **Express.js** poslužitelja te osnove **HTTP protokola**
+(zahtjev, odgovor, statusni kodovi, metode).
 
 ## Sadržaj direktorija
 
 ```
 wa-vjezbe-1/
-├── WA1 - Uvod u HTTP, Node i Express.pdf   # skripta/slajdovi prve vježbe
+├── WA1 - Uvod u HTTP, Node i Express.pdf   # skripta prve vježbe
 ├── index.js                                # Express poslužitelj (definicije ruta)
 ├── public/                                 # statične HTML stranice
 │   ├── index.html
@@ -60,10 +50,10 @@ Poslužitelj se pokreće na adresi **http://localhost:3000**.
 
 ## Rute
 
-| Metoda | Ruta     | Odgovor | Opis                                  |
-| ------ | -------- | ------- | ------------------------------------- |
-| GET    | `/`      | HTML    | Početna stranica                      |
-| GET    | `/about` | HTML    | Stranica o nama                       |
+| Metoda | Ruta     | Odgovor | Opis                                     |
+| ------ | -------- | ------- | ---------------------------------------- |
+| GET    | `/`      | HTML    | Početna stranica (`public/index.html`)   |
+| GET    | `/about` | HTML    | Stranica o nama (`public/about.html`)    |
 | GET    | `/users` | JSON    | Popis korisnika (`id`, `ime`, `prezime`) |
 
 ### Testiranje
