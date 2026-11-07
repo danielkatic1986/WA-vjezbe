@@ -4,6 +4,9 @@ Repozitorij s rješenjima vježbi iz kolegija **Web aplikacije**. Svaka vježba 
 u zasebnom direktoriju (`wa-vjezbe-1`, `wa-vjezbe-2`, ...) koji sadrži vlastiti
 `README.md`, izvorni kod i prateće materijale.
 
+**Student:** Daniel Katić  
+**JMBAG:** 0303123347
+
 ## O kolegiju
 
 | | |
