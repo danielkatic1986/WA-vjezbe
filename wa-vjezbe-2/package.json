@@ -1,0 +1,13 @@
+{
+  "name": "nekretnine-posluzitelj",
+  "version": "1.0.0",
+  "description": "Poslužitelj za agenciju za nekretnine",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
