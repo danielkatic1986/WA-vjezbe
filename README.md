@@ -25,13 +25,21 @@ Kolegij se bavi razvojem **poslužiteljskog sloja** web aplikacija korištenjem
 .
 ├── .gitignore
 ├── README.md              # ovaj dokument (pregled repozitorija)
-└── wa-vjezbe-1/           # Vježba 1
-    ├── README.md          # opis prve vježbe
+├── wa-vjezbe-1/           # Vježba 1
+│   ├── README.md          # opis prve vježbe
+│   ├── index.js
+│   ├── public/
+│   ├── package.json
+│   ├── package-lock.json
+│   └── WA1 - Uvod u HTTP, Node i Express.pdf
+└── wa-vjezbe-2/           # Vježba 2
+    ├── README.md          # opis druge vježbe
     ├── index.js
-    ├── public/
+    ├── data/
+    ├── routes/
+    ├── screenshotovi/
     ├── package.json
-    ├── package-lock.json
-    └── WA1 - Uvod u HTTP, Node i Express.pdf
+    └── package-lock.json
 ```
 
 ## Popis vježbi
@@ -39,6 +47,7 @@ Kolegij se bavi razvojem **poslužiteljskog sloja** web aplikacija korištenjem
 | Vježba | Tema | Direktorij |
 | ------ | ---- | ---------- |
 | 1 | Uvod u HTTP, Node i Express | [`wa-vjezbe-1/`](./wa-vjezbe-1) |
+| 2 | REST API — CRUD, validacija i statusni kodovi (nekretnine i ponude) | [`wa-vjezbe-2/`](./wa-vjezbe-2) |
 
 Detalje svake vježbe (sadržaj, upute za pokretanje i opis ruta) potraži u `README.md`
 unutar odgovarajućeg direktorija.
